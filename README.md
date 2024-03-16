@@ -1,3 +1,5 @@
+# You can find the APK in the release section
+
 # auto_zooming_camera
 
 A new Flutter project.
