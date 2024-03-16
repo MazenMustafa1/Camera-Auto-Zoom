@@ -4,13 +4,15 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A Flutter application that detects objects and start zooming automatically so that capturing photos becomes more flexible.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Uses ssd_mobilenet pretrained model to detect the object and define the coordinates of it on the screen
+- Uses GetX state management to create a controller for the camera that handles scanning objects
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Widgets
+- ObjectBox : this widget is a yellow frame surrounding the detected object to give the user an experience that something is detected
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Views
+- Camera View: the camera screen that detects the object
+- Display Picture: A widget that displays the picture after pressing the capture icon
