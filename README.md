@@ -1,3 +1,6 @@
+# Preview
+![Video Preview](Screen_Recording_20240317-191138.gif)
+
 # You can find the APK in the release section
 
 # auto_zooming_camera
